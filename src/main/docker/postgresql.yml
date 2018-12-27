@@ -1,0 +1,11 @@
+version: '2'
+services:
+    todolatino-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/todolatino/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=todolatino
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

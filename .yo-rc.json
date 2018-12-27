@@ -1,0 +1,36 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "ca.rbnsolutions.todolatino",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "todolatino",
+        "packageName": "ca.rbnsolutions.todolatino",
+        "packageFolder": "ca/rbnsolutions/todolatino",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": "spring-websocket",
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": true,
+        "jwtSecretKey": "NmJiOWQ0MmU3YjY5ZmY3MjNhZjAwYzAxZmM5YTdmOWVjNmRmMjFmODEzMzc3YmNiMzBkZmQyOTc0MGVhMDg2ZTY0OWEyMzBlZWJmN2NhZmJmMGEyYWEyZTRmMzk1YjI0Zjk4OWY1YjE4MDBiMjY4Y2QzMzRkNzQ0MGEzNjA3YWE=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling", "cucumber", "protractor"],
+        "jhiPrefix": "jhi",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en", "fr", "es"]
+    }
+}
